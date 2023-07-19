@@ -1,0 +1,42 @@
+.containers {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.activity-img {
+  width: 100%;
+}
+
+.activity h2 {
+  margin-top: 0;
+}
+
+.activity p {
+  margin-bottom: 10px;
+}
+
+.activity img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.activity a {
+  display: block;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.activity a:hover {
+  background-color: #555;
+}
