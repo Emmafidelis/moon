@@ -1,0 +1,60 @@
+ .carousel-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 1rem;
+  }
+  .carousel-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: opacity 0.5s ease-in-out;
+  }
+
+  .carousel-text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+  }
+
+  .carousel-head {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+  }
+
+  .carousel-p {
+    font-size: 1.3rem;
+  }
+
+  .carousel-item.active {
+  opacity: 1;
+  }
+  /* Responsive styles */
+  @media screen and (min-width: 768px) {
+  .carousel-item {
+  background-position: left;
+  }
+
+  .carousel-head {
+    font-size: 7rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .carousel-p {
+    font-size: 2.5rem;
+  }
+
+  .carousel-text {
+    top: 50%;
+  }
+  }
